@@ -1,0 +1,32 @@
+{        
+	"name": "Monokai-Polished",
+	"description": "Making Monokai Theme more awesome.",
+	"version": "0.0.2",
+	"publisher": "Mit",
+	"bugs": {
+		"url": "https://github.com/foxtrot9/monokaiPolishedVSCode/issues"
+	},
+	"homepage": "https://github.com/foxtrot9/monokaiPolishedVSCode/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/foxtrot9/monokaiPolishedVSCode/"
+	},
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"keywords": [
+        "Monokai"
+    ],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+	"themes": [
+			{
+				"label": "Monokai Polished",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai_polished.tmTheme"
+			}
+		]
+	}
+}
